@@ -1,0 +1,44 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.rows {
+    gap: 10px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #d0d0d0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.display {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e0e0e0;
+    text-align: right;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
